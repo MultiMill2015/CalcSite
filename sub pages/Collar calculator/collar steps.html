@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/New calc tryouts/styles.css">
+    <title>Document</title>
+</head>
+<nav>
+    <a href="/New calc tryouts/sub pages/Angle calculation/angleCalc.html">Angle Calculator</a>
+    <a href="/New calc tryouts/index.html">Back to main page</a>
+</nav>
+<body>
+    <div class="">
+        <div id="inputBox">
+        <input type="number" step="0.1" value="2" id="step" placeholder="Step">
+        <input type="number" value="199" id="collarRadius" placeholder="Radius">
+        <input type="number" value="1585" id="diametrStart" placeholder="Start Ø">
+        <div onclick="collarCalc()">Вычислить</div>
+        <div onclick="location.reload();">Сброс</div>
+        </div>
+        <div id="result"></div>
+    </div>
+    
+</body>
+
+<script src="collar steps app.js"></script>
+</html>

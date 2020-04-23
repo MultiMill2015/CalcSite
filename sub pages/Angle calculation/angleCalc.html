@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/New calc tryouts/styles.css">
+    <title>Document</title>
+</head>
+
+    <nav>
+        <a href="/New calc tryouts/sub pages/Collar calculator/collar steps.html">Collar Calculator</a>
+        <a href="/New calc tryouts/index.html">Back to main page</a>
+    </nav>
+
+<body>
+    <div class="mainContainer">
+        <div class="calcConteiner">
+            <h3>Вычисление углов треугольника с прямым углом по катетам</h3>
+            <img src="/New calc tryouts/sub pages/Angle calculation/images/90angle.JPG" alt="">
+            <p>Катет a</p>
+            <input type="text" id="userInputLeg1">
+            <p>Катет b</p>
+            <input type="text" id="userInputLeg2">
+            <button onclick="calcAngle()">вычислить</button>
+
+            <div class="result" id="endAngle1">Угол α</div>
+            <div class="result" id="endAngle2">Угол β</div>
+        </div> 
+        <div class="calcConteiner">
+            <h3>Вычисление углов треугольника по трем сторонам</h3>
+            <img src="/New calc tryouts/sub pages/Angle calculation/images/threeAngle.JPG" alt="">
+            <p>Сторона a</p>
+            <input type="text" id="userInputForThreeLegs1">
+            <p>Сторона b</p>
+            <input type="text" id="userInputForThreeLegs2">
+            <p>Сторона c</p>
+            <input type="text" id="userInputForThreeLegs3">
+            <button onclick="calcAngleForThreeLegs()">вычислить</button>
+
+            <div class="result" id="endAngleForThreeLegs1">Угол α</div>
+            <div class="result" id="endAngleForThreeLegs2">Угол β</div>
+            <div class="result" id="endAngleForThreeLegs3">Угол γ</div>
+        </div> 
+    </div>
+</body>
+<script src="angleApp.js"></script>
+</html>

@@ -1,0 +1,105 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body {
+    height: 100vw;
+
+}
+
+nav {
+    background: grey;
+    display: flex;
+    word-wrap: normal;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav a {
+    color: Black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+/*Angle calculator*/
+.mainContainer{
+    display: flex;
+    word-wrap: normal;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calcConteiner {
+    width: 300px;
+    max-width: 50vw;
+    height: auto;
+    display: flex;
+    word-wrap: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
+
+.calcConteiner img {
+    width: 100%;
+}
+
+
+/*Collar calculator*/
+
+/* #inputBox {
+    width: 300px;
+    max-width: 50vw;
+    height: auto;
+    display: flex;
+    word-wrap: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+/* #inputBox input {
+    font-size: 1.3rem;
+    width: 100%;
+    background: rgba(200, 200, 200, 0.5);
+    border: none;
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+} */
+
+/* #inputBox div {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(200, 200, 200, 0.5);
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+} */
+
+
+/* .endResultCollarCalc {
+    background: rgba(200, 200, 200, 0.5);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    max-width: 300px;
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+} */
+
+@media screen and (max-width: 650px) {
+    .mainContainer{
+        width: 90vw;
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
