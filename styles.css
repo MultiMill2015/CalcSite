@@ -51,7 +51,17 @@ nav a {
     width: 100%;
 }
 
+/*collar steps*/
 
+.button {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    background:rgba(50, 50, 50, 0.5);
+}
+.button:hover {
+    background:rgba(50, 50, 50, 0.4);
+}
 
 
 @media screen and (max-width: 650px) {
