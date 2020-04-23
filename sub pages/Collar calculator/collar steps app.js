@@ -9,7 +9,7 @@ function collarCalc() {
     let count = userRad
 
 
-        while (count >= 2){
+        while (count >= 0){
             //Main calculation
             count = userRad - userStep; 
             let countConst = Math.pow(userRadConst, 2)
